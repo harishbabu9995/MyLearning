@@ -24,7 +24,7 @@ function div() {
 echo "Enter two Numerical Values"
 read value1 value2
 echo "| + -> Addition | * -> Multiplication | - -> Subtraction | / -> Division |"
-echo "Choose an Operator "+","*","-","/": "
+echo "Choose an Operator '+' '*' '-' '/': "
 read op
 # Check the Operation and call the relevant function
 case $op in
